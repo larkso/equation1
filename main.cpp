@@ -8,21 +8,21 @@ int main()
     setlocale(LC_CTYPE,"Russian");
     int number;
 
-    cout << "Ğåøèòå óğàâíåíèå:\r\n" << endl;
+    cout << "Ğ ĞµÑˆĞ¸Ñ‚Ğµ ÑƒÑ€Ğ°Ğ²Ğ½ĞµĞ½Ğ¸Ğµ:\r\n" << endl;
 
     cout << " 2 * x^2 + 3 * x     x - x^2" << endl;
     cout << "----------------- = ---------" << endl;
     cout << "    3 - x             x - 3" << endl;
 
-    cout << "\r\nÂâåäèòå ÷èñëî:" << endl;
+    cout << "\r\nĞ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾:" << endl;
     cin >> number;
     if (number != -4) {
-        cout << "Íåïğàâèëüíî!" << endl;
+        cout << "ĞĞµĞ¿Ñ€Ğ°Ğ²Ğ¸Ğ»ÑŒĞ½Ğ¾!" << endl;
     } else {
-        cout << "Ïğàâèëüíî!" << endl;
+        cout << "ĞŸÑ€Ğ°Ğ²Ğ¸Ğ»ÑŒĞ½Ğ¾!" << endl;
     }
 
-    cout << "\r\nÄîñâèäàíüÿ! Íàæìèòå Enter" << endl;
+    cout << "\r\nĞ”Ğ¾ÑĞ²Ğ¸Ğ´Ğ°Ğ½ÑŒÑ! ĞĞ°Ğ¶Ğ¼Ğ¸Ñ‚Ğµ Enter" << endl;
     getch();
     return 0;
 }
